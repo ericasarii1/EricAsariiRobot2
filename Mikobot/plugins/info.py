@@ -202,7 +202,7 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [
             InlineKeyboardButton(
-                "㊋ Infamous • Hydra", url="https://t.me/Infamous_Hydra"
+                "Eric Asarii", url="https://t.me/eric_asarii"
             ),
         ]
     ]
