@@ -228,7 +228,7 @@ async def extra_command_handlered(update: Update, context: ContextTypes.DEFAULT_
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://telegra.ph/file/8c092f4e9d303f9497c83.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
+        "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://ar-hosting.pages.dev/1744717489000.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
         reply_markup=reply_markup,
         parse_mode="Markdown",
     )
@@ -239,7 +239,7 @@ async def extra_command_callback(update: Update, context: ContextTypes.DEFAULT_T
     if query.data == "extra_command_handler":
         await query.answer()  # Use 'await' for asynchronous calls
         await query.message.edit_text(
-            "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://telegra.ph/file/8c092f4e9d303f9497c83.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
+            "𝙎𝙚𝙡𝙚𝙘𝙩 𝙩𝙝𝙚 [𝙨𝙚𝙘𝙩𝙞𝙤𝙣](https://ar-hosting.pages.dev/1744717489000.jpg) 𝙩𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙩𝙤 𝙤𝙥𝙚𝙣",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -273,7 +273,7 @@ async def ai_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text(
-        "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://telegra.ph/file/ed2d9c3693cacc9b0464e.jpg):",
+        "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://ar-hosting.pages.dev/1744717558461.jpg):",
         reply_markup=reply_markup,
         parse_mode="Markdown",
     )
@@ -284,7 +284,7 @@ async def ai_command_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "ai_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://telegra.ph/file/ed2d9c3693cacc9b0464e.jpg):",
+            "🧠 *Here are the options for* [𝗬𝗔𝗘 𝗠𝗜𝗞𝗢](https://ar-hosting.pages.dev/1744717558461.jpg):",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -411,7 +411,7 @@ async def anime_command_callback(update: Update, context: ContextTypes.DEFAULT_T
     if query.data == "anime_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "⛩[𝗔𝗻𝗶𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀](https://telegra.ph//file/59d93fede8bf12fec1a51.jpg) :\n\n"
+            "⛩[𝗔𝗻𝗶𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀](https://ar-hosting.pages.dev/1744717675459.jpg) :\n\n"
             "**╔ /anime: **fetches info on single anime (includes buttons to look up for prequels and sequels)\n"
             "**╠ /character: **fetches info on multiple possible characters related to query\n"
             "**╠ /manga: **fetches info on multiple possible mangas related to query\n"
@@ -434,7 +434,7 @@ async def anime_command_callback(update: Update, context: ContextTypes.DEFAULT_T
                     [
                         InlineKeyboardButton("More Info", url="https://anilist.co/"),
                         InlineKeyboardButton(
-                            "㊋Infamous•Hydra", url="https://t.me/Infamous_Hydra"
+                            "Eric Asarii", url="https://t.me/eric_asarii"
                         ),
                     ],
                     [
@@ -453,7 +453,7 @@ async def genshin_command_callback(update: Update, context: ContextTypes.DEFAULT
     if query.data == "genshin_command_handler":
         await query.answer()
         await query.message.edit_text(
-            "⛩ [𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁](https://telegra.ph/file/cd03348a4a357624e70db.jpg) ⛩\n\n"
+            "⛩ [𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁](https://ar-hosting.pages.dev/1744717775751.jpg) ⛩\n\n"
             "*UNDER DEVELOPMENT*",
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -622,9 +622,9 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/Infamous-Hydra/YaeMiko"
+        source_link = "https://t.me/OvanimeIndonesia"
         message_text = (
-            f"*Here is the link for the public source repo*:\n\n{source_link}"
+            f"*let's join the Indonesian Ovanime group*:\n\n{source_link}"
         )
 
         # Adding the inline button
@@ -640,8 +640,8 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    source_link = "https://github.com/Infamous-Hydra/YaeMiko"
-    message_text = f"*Here is the link for the public source repo*:\n\n{source_link}"
+    source_link = "https://t.me/OvanimeIndonesia"
+    message_text = f"*let's join the Indonesian Ovanime group*:\n\n{source_link}"
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -695,7 +695,7 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="SUPPORT", url=f"https://t.me/marin_kitagawa_robot/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
                             text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
