@@ -48,7 +48,7 @@ START_BTN = [
     ],
     [
         InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
-        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+        InlineKeyboardButton(text="GROUP", callback_data="git_source"),
     ],
     [
         InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
@@ -70,8 +70,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="UPDATES", url="https://t.me/marin_kitagawa_official"),
+        ib(text="SUPPORT", url="https://t.me/OvanimeIndonesia"),
     ],
     [
         ib(
@@ -82,7 +82,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *Yae-Miko* 🫧 [ㅤ](https://telegra.ph/file/b05535884267a19ee5c93.jpg)
+🫧 *Yae-Miko* 🫧 [ㅤ](https://ar-hosting.pages.dev/1744717324889.jpg)
 
 ☉ *Here, you will find a list of all the available commands.*
 
